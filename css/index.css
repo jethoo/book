@@ -1,0 +1,53 @@
+/* Body background*/
+body{
+    background-color:#686858;
+}
+
+/*styles for all p tags */
+p{
+    color:#004A66; font-size: 30px;font-weight: bolder;
+}
+
+/*separate style for p tag with summary class*/
+p.summary{
+    font-weight: 400;
+    margin-top: 100px;
+    
+}
+
+/*changing color of h2 of Table of Contents , collapse */
+.mb-0{
+    color:#004A66;
+ }
+ 
+ /*changing background color of card header of Table of Contents Accordion*/
+ .card-header{
+     background-color:#BF9731;
+     font-family: 'Roboto';
+ }
+
+/*Initial display of Buy Now Form*/
+ form{
+     display:none;
+ }
+
+/*Submit button of form*/
+button.btn.btn-primary {
+    background-color: #BF9731;
+    color:#004A66;
+}
+
+/*Font face similar to the cover of the photo*/
+@font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+
+/*imported font to all the h1 */
+h1,h2{
+   color:#004A66;
+   font-family: 'Roboto','sans-serif','Times New Roman', Times, serif;
+}
